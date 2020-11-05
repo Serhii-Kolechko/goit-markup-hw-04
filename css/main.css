@@ -65,6 +65,9 @@ img {
 /* navbar */
 
 
+
+
+
 .navbar{
   display: flex;
   align-items: center;
@@ -170,6 +173,24 @@ img {
 .link-mail:hover{
   color: var(--accent-color);
 }
+.link-mail::before{
+  /* background: #757575; */
+  color: #757575;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  content: "";
+  background-image: url(../img/svg/envelope.svg);
+  background-size: contain;
+  display: inline-block;
+  
+  align-self: center;
+  
+}
+.link-mail::before:hover{
+  background-image: url(../img/svg/envelope.svg);
+}
+
 
 .contacts-phone {
   color: var(--main-text-color);
@@ -180,6 +201,15 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+.contacts-phone::before{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  content: "";
+  background-image: url(../img/svg/phone.svg);
+  background-size: contain;
+  display: inline-block;
 }
 
 
@@ -249,10 +279,25 @@ img {
   /* вертикальная геометрия 158пикселя */
   display: inline-block;
   padding: 10px 32px;
-  
-  
-  
+   
 }
+
+.overlay{
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: 
+  linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+  url(../img/background/Img-23.jpg); 
+                    
+}
+
+
 /* ******************************************** */
 /* FEATURES */
 
@@ -264,6 +309,7 @@ img {
   flex-wrap: wrap;
   display: flex;
   width: 1170px;
+  height: 251px;
   
 
 }
@@ -277,7 +323,37 @@ img {
 .flex-element:nth-last-child(4n+1){
   margin-right: 0;
 }
+.flex-element::before{
+  content: "";
+ 
+  height: 120px;
+  display: block;
+  outline: 1px solid red;
+  /* background-image: url(../img/svg/Vector-2.svg); */
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+}
 
+.flex-element:nth-child(1)::before{
+  background-image: url(../img/svg/Vector-2.svg);
+  background-size: 65.32px 70px;
+}
+
+.flex-element:nth-child(2)::before{
+  background-image: url(../img/svg/Vector-3.svg);
+  background-size: 66.96px 70px;
+
+}
+.flex-element:nth-child(3)::before{
+  background-image: url(../img/svg/Vector-4.svg);
+  background-size: 70px 53.69px;
+}
+.flex-element:nth-child(4)::before{
+  background-image: url(../img/svg/astronaut\ 1.svg);
+  background-size: 70px 70px;
+}
 .features-text{
   color: var(--main-text-color);
 
@@ -326,7 +402,7 @@ font-size: 14px;
 
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
+margin-top: 30px;
 margin-bottom: 10px;
 
 
@@ -344,7 +420,7 @@ margin-bottom: 10px;
   color: #757575;
   /* вертикальная геометрия */
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 94px;
 
 }
 
