@@ -538,6 +538,7 @@ padding-top: 94px;
   padding-bottom: 30px;
 
   width: 270px;
+  
 }
 .team-member{
   font-family: Roboto;
@@ -566,6 +567,8 @@ padding-top: 94px;
 }
 .social-networks{
   display: flex;
+  justify-content: center;
+  
 }
 .social-networks-item:not(:last-child){
   margin-right: 10px;
@@ -578,6 +581,7 @@ padding-top: 94px;
   align-items: center;
   background-color: white;
   border-radius: 50%;
+  
 
 }
 .social-networks-link:hover .social-networks-icons,
