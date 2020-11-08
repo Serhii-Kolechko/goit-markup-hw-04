@@ -595,28 +595,43 @@ h4{
 
 /* клиенты */
 
-.clients{
-  height: 648px;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 94px;
-  padding-bottom: 94px;
-  
-}
+
 
 .companys-container{
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   width: 1200px;
+  height: 182px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+  padding-right: 215px;
+  padding-left: 215px;
   
 
   
   /* outline: 2px solid tomato; */
 }
 
+.clients-title{
+  margin-top: 94px;
+  margin-bottom: 50px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  /* margin-top: 94px;
+  margin-bottom: 50px; */
+  color: #212121;
 
+
+}
+  
+  
 
 .tumb-clients{
   width: 170px;
@@ -640,6 +655,7 @@ h4{
 .clients-container{
   display: flex;
   justify-content: space-between;
+  padding-bottom: 94px;
 }
 .logo-clients{
   width: 44.27px;
@@ -765,6 +781,13 @@ h4{
 .footer-joinup-title{
   color: white;
   margin-top: 12px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
 
@@ -779,11 +802,6 @@ h4{
   width: 44px;
   height: 44px;
   align-items: center;
-
-
-
-
-
   padding-bottom: 0;
 }
 

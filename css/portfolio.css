@@ -618,34 +618,41 @@ html {
 
 /* join */
 .join{
-  display: flex;
-  width: 206px;
-  height: 80px;
+  margin-left: 70px;
 }
 
-.footer-title{
-
-}
-
-
-.footer-joinup-title{
-  color: white;
-}
-
-.footer-title{
-  display: block;
-}
 
 .social-networks{
   display: flex;
   justify-content: center;
-  
+  max-width: 100%;
+  margin-top: 20px;
 }
+
+.footer-joinup-title{
+  color: white;
+  margin-top: 12px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+
+
+
 .social-networks-item:not(:last-child){
   margin-right: 10px;
 }
 .social-networks-item{
   margin-bottom: 0;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
   padding-bottom: 0;
 }
 
@@ -674,5 +681,3 @@ html {
   fill: #FFFFFF;
   
 }
-
-
