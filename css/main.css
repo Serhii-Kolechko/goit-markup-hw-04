@@ -602,18 +602,56 @@ padding-top: 94px;
 /* клиенты */
 
 .clients{
-  width: 1170px;
-  height: 182px;
+  height: 648px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 94px;
   padding-bottom: 94px;
-  padding-top: 94px;
-}
-.clients-title{
-  
-  margin-left: 605px;
-  
   
 }
 
+.companys-container{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 1200px;
+  
+
+  
+  /* outline: 2px solid tomato; */
+}
+
+
+
+.tumb-clients{
+  width: 170px;
+  height: 90px;
+  background-color: #E5E5E5;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  
+}
+
+.list-element{
+  width: 270px;
+  
+  margin-right: 30px;
+}
+.list-element:nth-last-child(6n+1){
+  margin-right: 0;
+}
+
+
+.clients-container{
+  display: flex;
+  justify-content: space-between;
+}
+.logo-clients{
+  width: 44.27px;
+  height: 49.23px;
+  margin: 20px 63px;
+}
 
 /* подвал */
 .footer-section{
