@@ -447,12 +447,12 @@ margin-bottom: 10px;
 /* НАША КОМАНДА */
 .our-team {
   
-  height: 648px;
+  height:  808px;
   background-color: var(--team-bcg-color);
   margin-left: auto;
   margin-right: auto;
   margin-top: 94px;
-  padding-bottom: 94px;
+ 
   
   
 }
@@ -461,6 +461,7 @@ margin-bottom: 10px;
   margin-right: auto;
   margin-top: 0;
   width: 1200px;
+  
   
 
   
@@ -477,9 +478,9 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-
-color: #212121;
 padding-top: 94px;
+color: #212121;
+
 
 }
 
@@ -487,6 +488,7 @@ padding-top: 94px;
   width: 270px;
   
   margin-right: 30px;
+  
 }
 .item-team:nth-last-child(4n+1){
   margin-right: 0;
@@ -495,6 +497,12 @@ padding-top: 94px;
 .team-list{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  
+  
+  
   
 }
 .card{
@@ -504,6 +512,8 @@ padding-top: 94px;
   border: transparent;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  
+  
 }
 
 
@@ -530,6 +540,7 @@ padding-top: 94px;
 
   width: 270px;
   height: 168px;
+  
   
 }
 .team-member{
