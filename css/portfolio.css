@@ -148,6 +148,9 @@ html {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    
   }
   .link-mail:hover{
     color: var(--accent-color);
@@ -162,6 +165,8 @@ html {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    align-items: center;
   }
   
   
@@ -173,6 +178,7 @@ html {
 
   .envelope{
     fill: #757575;
+    margin-right: 10px;
   }
   .link-mail:hover{
     color: var(--accent-color);
@@ -182,10 +188,7 @@ html {
   .link-mail:focus .envelope{
     fill: var(--accent-color);
   }
-  .mail-envelope{
-    display: flex;
-    align-items: center;
-  }
+  
   
   
   .contacts-phone {
@@ -200,6 +203,7 @@ html {
   }
   .smartphone{
     fill: #757575;
+    margin-right: 10px;
   }
   .contacts-phone:hover {
     color: var(--accent-color);

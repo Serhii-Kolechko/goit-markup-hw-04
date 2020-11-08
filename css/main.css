@@ -169,9 +169,13 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .envelope{
   fill: #757575;
+ 
+  margin-right: 10px;
 }
 .link-mail:hover{
   color: var(--accent-color);
@@ -197,9 +201,12 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .smartphone{
   fill: #757575;
+  margin-right: 10px;
 }
 .contacts-phone:hover {
   color: var(--accent-color);
@@ -553,6 +560,10 @@ padding-top: 94px;
   justify-content: center;
   
 }
+
+h4{
+  display: block;
+}
 .social-networks-item:not(:last-child){
   margin-right: 10px;
 }
@@ -740,28 +751,34 @@ padding-top: 94px;
 
 /* join */
 .join{
+  margin-left: 70px;
+}
+
+
+.social-networks{
   display: flex;
-  width: 206px;
-  height: 80px;
+  justify-content: center;
+  max-width: 100%;
+  margin-top: 20px;
 }
-
-.footer-title{
-
-}
-
 
 .footer-joinup-title{
   color: white;
+  margin-top: 12px;
 }
 
-.footer-title{
-  display: block;
-}
+
+
+
 .social-networks-item:not(:last-child){
   margin-right: 10px;
 }
 .social-networks-item{
   margin-bottom: 0;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
 
 
 
