@@ -169,6 +169,46 @@ html {
   .contacts-phone:hover {
     color: var(--accent-color);
   }
+
+
+  .envelope{
+    fill: #757575;
+  }
+  .link-mail:hover{
+    color: var(--accent-color);
+  }
+  
+  .link-mail:hover .envelope,
+  .link-mail:focus .envelope{
+    fill: var(--accent-color);
+  }
+  .mail-envelope{
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .contacts-phone {
+    color: var(--main-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  .smartphone{
+    fill: #757575;
+  }
+  .contacts-phone:hover {
+    color: var(--accent-color);
+  }
+  
+  .contacts-phone:hover .smartphone,
+  .contacts-phone:focus .smartphone{
+   fill: var(--accent-color);
+  }
   /* закончили с элементами навбара */
   /* начинаются  секции */
   
@@ -473,6 +513,8 @@ html {
 /* подвал */
 .footer-section{
   background-color: #2f303a;
+  height: 252px;
+  
 }
 .footer {
     
@@ -483,73 +525,150 @@ html {
     padding-top: 60px;
    
     padding-bottom: 161px;
+    display: flex;
   }
   
-  .webstudio-link {
-    color: #ffffff;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 20px;
-    
-  }
+.container-no-padding{
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
   
-  .address-span {
-    color: var(--primary-white-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    /* or 171% */
-    letter-spacing: 0.03em;
-  
-    display: inline-block;
-    margin-bottom: 9px;
-   
-  }
-  
-  .address-mail {
-    color: var(--address-mail);
-  
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    /* or 171% */
-    letter-spacing: 0.03em;
-  
-    color: rgba(255, 255, 255, 0.6);
-  }
+ 
   
   
-  .address-contacts-mail{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
   
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    margin-bottom: 9px;
-    display: block;
-     
-  }
-  .address-contacts-phone {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
+}
+
+.webstudio-link {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
   
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+}
+
+.address-span {
+  color: var(--primary-white-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  display: inline-block;
+  margin-bottom: 9px;
+  margin-top: 20px;
+ 
+}
+
+.address-mail {
+  color: var(--address-mail);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.address-contacts-mail{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  margin-bottom: 9px;
+  display: block;
   
-    display: block;
-     
-  }
+  
+}
+.address-contacts-phone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+
+  display: block;
+  
+}
+
+/* join */
+.join{
+  display: flex;
+  width: 206px;
+  height: 80px;
+}
+
+.footer-title{
+
+}
+
+
+.footer-joinup-title{
+  color: white;
+}
+
+.footer-title{
+  display: block;
+}
+
+.social-networks{
+  display: flex;
+  justify-content: center;
+  
+}
+.social-networks-item:not(:last-child){
+  margin-right: 10px;
+}
+.social-networks-item{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.footer-networks-link{
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  
+  
+}
+
+.footer-networks-link:hover,
+.footer-networks-link:focus {
+  background-color: #2196F3;
+}
+
+
+
+.footer-networks-icons{
+  width: 20px;
+  height: 20px;
+  fill: #FFFFFF;
+  
+}
+
+

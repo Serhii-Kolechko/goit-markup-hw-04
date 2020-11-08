@@ -34,9 +34,24 @@
 
                 <ul class="list contacts">
                     <li class="item">
-                        <a class="link-mail" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
+                       <div class="mail-envelope">
+                        <a class="link-mail" href="mailto:info@devstudio.com" lang="en">
+                            <svg class="envelope" width = 20px height = 20px>
+                                <use href = "./img/svg/sprite.svg#envelope">
+    
+                                </use>
+                            </svg>
+                            info@devstudio.com</a>
+                       </div>
+                       
                     </li>
-                    <li class="item"><a class="contacts-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="item">
+                        
+                        <a class="contacts-phone" href="tel:+380961111111">
+                            <svg class="smartphone" width = 20px height = 20px>
+                                <use href = "./img/svg/sprite.svg#smartphone">
+                            </svg>
+                            +38 096 111 11 11</a></li>
                 </ul>
             </nav>
         </div>
@@ -139,21 +154,66 @@
 
     <section class="footer-section">
         
-        <footer class="footer container">
-            <a class="webstudio-link" href=""><span class="webstudio-span">Web</span><span
-                    class="footer-webstudio-span-studio">Studio</span></a>
-            <address class="footer-address">
-                <span class="address-span">
-                    г. Киев, пр-т Леси Украинки, 26 <br />
-                </span>
-                
-                <a class="address-contacts-mail" href="mailto:info@example.com">info@example.com</a>
+        <section class="footer-section">
+       
+            <footer class="footer container">
+                <div class="adress">
+                <a class="footer-webstudio-link" href=""><span class="webstudio-span">Web</span><span
+                        class="footer-webstudio-span-studio">Studio</span></a>
+                <address class="footer-address">
+                    <span class="address-span">
+                        г. Киев, пр-т Леси Украинки, 26 <br />
+                    </span>
+                    
+                    <a class="address-contacts-mail" href="mailto:info@example.com">info@example.com</a>
+                   
+                    <a class="address-contacts-phone" href="tel:+380991111111">+38 099 111 11 11</a>
+                </address>
+        </div>
+      
+           <div class="footer-title">
+            <h4>Присоединяйтесь</h4>
+           </div> 
+        <div class="join">
+            
+            
+                <ul class="list social-networks">
+                    <li class="social-networks-item">
+                        <a class="footer-networks-link" href="https://instagram.com" target="blank" rel="noopener noreferer" aria-label="Instagram">
+                        <svg class="footer-networks-icons">
+                            <use href = "./img/svg/sprite.svg#instagram"></use>
+                        </svg>
+                        </a>
+
+                    </li>
+                    <li class="social-networks-item">
+                        <a class="footer-networks-link" href="https://twitter.com" target="blank" rel="noopener noreferer" aria-label="Twitter">
+                        <svg class="footer-networks-icons">
+                            <use href = "./img/svg/sprite.svg#twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="social-networks-item">
+                        <a class="footer-networks-link" href="https://facebook.com" target="blank" rel="noopener noreferer" aria-label="Facebook">
+                        <svg class="footer-networks-icons">
+                            <use href = "./img/svg/sprite.svg#facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="social-networks-item">
+                        <a class="footer-networks-link" href="https://linkedin.com" target="blank" rel="noopener noreferer" aria-label="linkedin">
+                        <svg class="footer-networks-icons">
+                            <use href = "./img/svg/sprite.svg#linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
                
-                <a class="address-contacts-phone" href="tel:+380991111111">+38 099 111 11 11</a>
-            </address>
-        </footer>
-    
-</section>
+            </div>
+            </footer>
+       
+    </section>
+
 
 
 </body>

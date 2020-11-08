@@ -170,30 +170,23 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.envelope{
+  fill: #757575;
+}
 .link-mail:hover{
   color: var(--accent-color);
 }
-.link-mail::before{
-  /* background: #757575; */
-  color: #757575;
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  content: "";
+
+.link-mail:hover .envelope,
+.link-mail:focus .envelope{
+  fill: var(--accent-color);
+}
+.mail-envelope{
   
-  background-size: contain;
-  display: inline-block;
-  
-  align-self: center;
-  
+  align-items: center;
+
 }
 
-.envelope{
-  fill: var(--main-text-color);
-}
-.envelope:hover{
-  fill: #2196f3;
-}
 
 .contacts-phone {
   color: var(--main-text-color);
@@ -205,26 +198,16 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.contacts-phone::before{
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  content: "";
-
-  background-size: contain;
-  display: inline-block;
-}
-
 .smartphone{
-  fill: var(--main-text-color);
+  fill: #757575;
 }
-.smartphone:hover{
-  fill: #2196f3;
-}
-
-
 .contacts-phone:hover {
   color: var(--accent-color);
+}
+
+.contacts-phone:hover .smartphone,
+.contacts-phone:focus .smartphone{
+ fill: var(--accent-color);
 }
 /* закончили с элементами навбара */
 /* начинаются  секции */
@@ -668,6 +651,7 @@ padding-top: 94px;
     padding-top: 60px;
    
     padding-bottom: 161px;
+    display: flex;
   }
   
 .container-no-padding{
@@ -759,12 +743,31 @@ padding-top: 94px;
   display: flex;
   width: 206px;
   height: 80px;
-  margin-left: 50px;
+}
+
+.footer-title{
+
 }
 
 
+.footer-joinup-title{
+  color: white;
+}
+
+.footer-title{
+  display: block;
+}
 .social-networks-item:not(:last-child){
   margin-right: 10px;
+}
+.social-networks-item{
+  margin-bottom: 0;
+
+
+
+
+
+  padding-bottom: 0;
 }
 
 .footer-networks-link{
@@ -773,16 +776,24 @@ padding-top: 94px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   
+  
 }
-.footer-networks-link:hover .social-networks-icons,
-.footer-networks-link:focus .social-networks-icons{
-  fill: var(--accent-color);
+
+.footer-networks-link:hover,
+.footer-networks-link:focus {
+  background-color: #2196F3;
 }
-.social-networks-icons{
+
+
+
+.footer-networks-icons{
   width: 20px;
   height: 20px;
-  fill: #AFB1B8;
+  fill: #FFFFFF;
+  
 }
+
+
