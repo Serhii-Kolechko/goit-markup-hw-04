@@ -8,12 +8,7 @@ html {
 *::after {
   box-sizing: inherit;
 }
-h1,
-h2,
-h3,
-p {
-  margin-top: 0;
-}
+
 
 img {
   display: inline-block;
@@ -481,7 +476,7 @@ margin-bottom: 10px;
   background-color: var(--team-bcg-color);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 94px;
+ 
  
   
   
@@ -690,7 +685,7 @@ h4{
 .tumb-clients{
   width: 170px;
   height: 90px;
-  background-color: #E5E5E5;
+  background-color: white;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   
@@ -715,6 +710,10 @@ h4{
   width: 44.27px;
   height: 49.23px;
   margin: 20px 63px;
+}
+
+.logo-clients:nth-last-child(6n+1){
+  margin-right: 0;
 }
 
 /* подвал */
