@@ -363,11 +363,11 @@ section:not(:last-child){
 
 
 .features-text{
-  color: var(--main-text-color);
+color: var(--main-text-color);
 
 font-family: Roboto;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 /* or 171% */
