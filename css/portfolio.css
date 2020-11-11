@@ -50,7 +50,7 @@ html {
     --address-mail: rgba(255, 255, 255, 0.6);
   }
 
-  .navbar{
+  .navbar-portfolio{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -425,7 +425,7 @@ html {
     color: white;
 }
   /* картинки */
-.card-container{
+.card-container-portfolio{
     width: 1230px;
     margin-left: auto;
     margin-right: auto;
@@ -436,7 +436,7 @@ html {
     
 }
 
-.flex-container{
+.flex-container-portfolio{
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
@@ -450,7 +450,7 @@ html {
 
     width: calc((100%-60px)/3);
 } */
-.card{
+.card-portfolio{
     
     width: 370px;
     height: 404px;
@@ -462,21 +462,21 @@ html {
     border: 1px solid #EEEEEE;
 }
 
-.card:nth-last-child(-n+3){
+.card-portfolio:nth-last-child(-n+3){
     margin-bottom: 0;
 } 
-.card:nth-last-child(3n+1){
+.card-portfolio:nth-last-child(3n+1){
   margin-right: 0;
 }
 
 
 
 
-.card-image{
+.card-image-portfolio{
     display: block;
 
 }
-.card-content{
+.card-content-portfolio{
    
     background: #FFFFFF;
     box-sizing: border-box;
@@ -515,7 +515,7 @@ html {
 }
 
 
-.card:hover, .card:focus{
+.card-portfolio:hover, .card-portfolio:focus{
   cursor: pointer;
   border: 1px solid #EEEEEE;
 box-sizing: border-box;
