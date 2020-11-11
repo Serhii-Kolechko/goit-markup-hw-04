@@ -476,7 +476,8 @@ margin-bottom: 10px;
 /* НАША КОМАНДА */
 .our-team {
   
-  height:  808px;
+  height:  708px;
+  width: 1600px;
   background-color: var(--team-bcg-color);
   margin-left: auto;
   margin-right: auto;
@@ -507,7 +508,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-padding-top: 94px;
+
 color: #212121;
 
 
@@ -620,10 +621,22 @@ h4{
   
 }
 
-.social-networks-link:hover .social-networks-icons,
-.social-networks-link:focus .social-networks-icons{
-  fill: var(--accent-color);
+
+
+.social-networks-link:hover,
+.social-networks-icons:hover,
+.social-networks-link:focus,
+.social-networks-icons:focus 
+{
+  background-color: #2196F3;
+  fill: white;
+  
+  
+  
 }
+
+
+
 .social-networks-icons{
   width: 20px;
   height: 20px;
@@ -656,7 +669,6 @@ h4{
 }
 
 .clients-title{
-  margin-top: 94px;
   margin-bottom: 50px;
   
   font-family: Roboto;
