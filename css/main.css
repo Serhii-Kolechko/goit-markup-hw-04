@@ -331,6 +331,15 @@ section:not(:last-child){
   
 
 }
+
+.flex-container-pictures{
+  flex-wrap: wrap;
+  display: flex;
+  width: 1170px;
+  height: 294px;
+
+
+}
 .flex-element{
   width: 270px;
   height: 101px;
