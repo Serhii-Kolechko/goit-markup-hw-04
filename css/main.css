@@ -1236,12 +1236,10 @@ margin-right: 0;
   background: #FFFFFF;
   box-sizing: border-box;
  
-  
-
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  
 
 
 }
@@ -1266,7 +1264,7 @@ margin-right: 0;
   line-height: 30px;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
-
+  
   color: #757575;
 }
 
