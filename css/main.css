@@ -682,26 +682,107 @@ h4{
   
   
 
-.tumb-clients{
-  width: 170px;
-  height: 90px;
-  background-color: white;
+
+
+
+
+
+.logo-clients-one{
+  fill: #AFB1B8;
+  width: 44.27px;
+  height: 49.23px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 63px;
+  margin-right: 63px;
+
+}
+
+.logo-clients-two{
+  fill: #AFB1B8;
+  width: 40px;
+  height: 50px;
+
+  margin-top: 19px;
+  margin-bottom: 19px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+.logo-clients-three{
+  fill: #AFB1B8;
+  width: 41px;
+  height: 42.6px;
+
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 65px;
+  margin-right: 65px;
+
+}
+
+.logo-clients-four{
+  fill: #AFB1B8;
+  width: 79px;
+  height: 42px;
+
+  margin-top: 23px;
+  margin-bottom: 23px;
+  margin-left: 45px;
+  margin-right: 44px;
+
+}
+
+.logo-clients-five{
+  fill: #AFB1B8;
+  width: 59px;
+  height: 47px;
+
+  margin-top: 22px;
+  margin-bottom: 21px;
+  margin-left: 56px;
+  margin-right: 55px;
+
+}
+
+.logo-clients-six{
+  fill: #AFB1B8;
+  width: 88px;
+  height: 45px;
+
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-left: 41px;
+  margin-right: 40px;
+
+}
+
+.logo-clients:nth-last-child(6n+1){
+  margin-right: 0;
+}
+.list-element{
+  /* outline: 1px solid green; */
+}
+.clients-link{
+  display: flex;
+ 
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  
-}
-.tumb-clients:hover,
-.tumb-clients:focus{
-  border: 1px solid #2196F3;;
-}
-.logo-clients{
-  fill: #AFB1B8;
+  width: 170px;
+  height: 90px;
+  margin: 0;
 }
 
-.logo-clients:hover{
-  fill: blue;
-}
 
+
+
+.list-element:hover .logo{
+fill: #2196F3;
+}
+.list-element:hover .clients-link{
+  border-color: #2196F3;
+}
 
 .list-element{
   width: 270px;
@@ -719,15 +800,9 @@ h4{
   justify-content: space-between;
   padding-bottom: 94px;
 }
-.logo-clients{
-  width: 44.27px;
-  height: 49.23px;
-  margin: 20px 63px;
-}
 
-.logo-clients:nth-last-child(6n+1){
-  margin-right: 0;
-}
+
+
 
 /* подвал */
 .footer-section{
