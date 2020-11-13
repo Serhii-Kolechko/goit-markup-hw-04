@@ -618,19 +618,17 @@ h4{
 
 
 
-.social-networks-link:hover,
-.social-networks-icons:hover,
-.social-networks-link:focus,
-.social-networks-icons:focus 
-{
-  background-color: #2196F3;
+
+
+.social-networks-link:hover .social-networks-icons{
+  
   fill: white;
   
-  
+}
+.social-networks-link:hover{
+  background-color: #2196F3;
   
 }
-
-
 
 .social-networks-icons{
   width: 20px;
