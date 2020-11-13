@@ -257,7 +257,7 @@ section:not(:last-child){
   padding-top:91px; */
  
   text-align: center;
- 
+ padding-bottom: 94px;
 }
 
 .overlay{
@@ -394,9 +394,7 @@ height: 75px;
   
 }
 
-.features{
-  margin-top: 94px;
-}
+
 .features-pictures{
   
   margin-right: 30px;
