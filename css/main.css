@@ -642,7 +642,11 @@ h4{
 
 /* клиенты */
 
-
+.client{
+  height: 182px;
+  padding-bottom: 94px;
+  
+}
 
 .companys-container{
   margin-left: auto;
