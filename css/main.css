@@ -260,6 +260,21 @@ section:not(:last-child){
  
 }
 
+.overlay{
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: 
+  linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+  url(../img/background/Img-23.jpg); 
+                    
+}
+
 .hero-title {
   color: var(--primary-white-color);
   font-family: Roboto;
@@ -271,12 +286,12 @@ section:not(:last-child){
   letter-spacing: 0.06em;
   text-transform: uppercase;
   /* горизонтальная геометрия */
+  margin: 0;
+  padding-top:106px;
+  padding-left: 452px;
+  padding-right: 452px;
+  padding-bottom: 30px;
   
-  margin-bottom: 30px;
-  padding-right: 400px;
-  padding-left: 400px;  
-  padding-top: 200px;
-
 }
 
 .hero-link {
@@ -296,20 +311,7 @@ section:not(:last-child){
    
 }
 
-.overlay{
-  height: 600px;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
- 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: 
-  linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-  url(../img/background/Img-23.jpg); 
-                    
-}
+
 
 
 /* ******************************************** */
